@@ -1,0 +1,32 @@
+*{
+      padding: 0;
+      margin: 20px;
+      box-sizing: border-box;
+}
+
+#cards{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+}
+
+.front-card{
+      width: 23%;
+      box-shadow: 0 0 4px 3px black;
+      text-align: center;
+      padding: 1.5rem;
+      margin-bottom: 2em;
+}
+
+.title{
+      font-size: 1.3rem;
+}
+.images{
+      width: 80%;
+}
+.category,.rating,.stock{
+      font-weight: bold;
+      text-transform: capitalize;
+      margin: 1em;
+      font-size: 1.2rem;
+}
