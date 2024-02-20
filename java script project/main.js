@@ -1,6 +1,6 @@
 // function generateCards(numCards) {
 //     var container = document.getElementById('cardsContainer');
-//     container.innerHTML = ''; // Clear previous cards if any
+//     container.innerHTML = ''; 
 
 //     for (var i = 0; i < numCards; i++) {
 //       var card = document.createElement('div');
@@ -9,8 +9,6 @@
 //       container.appendChild(card);
 //     }
 //   }
-
-//   // Call the function to generate 20 cards
 //   generateCards(20);
 
 // // Function to create a card element
@@ -84,35 +82,175 @@
 
 const cardsData = [
   {
-    imageUrl: "",
-    productName: "",
-    category: "",
-    price: "",
-    rating: "",
-    description: "",
-    stock: ""
+    imageUrl: "IMG_7566.jpg",
+    productName: "Product 2",
+    category: "Category 2",
+    price: "$20.00",
+    rating: "4.8",
+    description: "Description of Product 2",
+    stock: "In Stock: 20"
   },
-  // {
-  //   imageUrl: "IMG_7566.jpg",
-  //   productName: "Product 2",
-  //   category: "Category 2",
-  //   price: "$20.00",
-  //   rating: "4.8",
-  //   description: "Description of Product 2",
-  //   stock: "In Stock: 20"
-  // },
 
-  // {
-  //   imageUrl: "IMG_7566.jpg",
-  //   productName: "Product 3",
-  //   category: "Category 3",
-  //   price: "$20.00",
-  //   rating: "4.8",
-  //   description: "Description of Product 2",
-  //   stock: "In Stock: 20"
-  // }
-  // Add more card data as needed
+  {
+    imageUrl: "IMG_7566.jpg",
+    productName: "Product 3",
+    category: "Category 3",
+    price: "$20.00",
+    rating: "4.8",
+    description: "Description of Product 2",
+    stock: "In Stock: 20"
+  },
+
+  {
+    imageUrl: "IMG_7566.jpg",
+    productName: "Product 3",
+    category: "Category 3",
+    price: "$20.00",
+    rating: "4.8",
+    description: "Description of Product 2",
+    stock: "In Stock: 20"
+  },
+  {
+    imageUrl: "IMG_7566.jpg",
+    productName: "Product 3",
+    category: "Category 3",
+    price: "$20.00",
+    rating: "4.8",
+    description: "Description of Product 2",
+    stock: "In Stock: 20"
+  }, {
+    imageUrl: "IMG_7566.jpg",
+    productName: "Product 3",
+    category: "Category 3",
+    price: "$20.00",
+    rating: "4.8",
+    description: "Description of Product 2",
+    stock: "In Stock: 20"
+  }, {
+    imageUrl: "IMG_7566.jpg",
+    productName: "Product 3",
+    category: "Category 3",
+    price: "$20.00",
+    rating: "4.8",
+    description: "Description of Product 2",
+    stock: "In Stock: 20"
+  }, {
+    imageUrl: "IMG_7566.jpg",
+    productName: "Product 3",
+    category: "Category 3",
+    price: "$20.00",
+    rating: "4.8",
+    description: "Description of Product 2",
+    stock: "In Stock: 20"
+  }, {
+    imageUrl: "IMG_7566.jpg",
+    productName: "Product 3",
+    category: "Category 3",
+    price: "$20.00",
+    rating: "4.8",
+    description: "Description of Product 2",
+    stock: "In Stock: 20"
+  }, {
+    imageUrl: "IMG_7566.jpg",
+    productName: "Product 3",
+    category: "Category 3",
+    price: "$20.00",
+    rating: "4.8",
+    description: "Description of Product 2",
+    stock: "In Stock: 20"
+  }, {
+    imageUrl: "IMG_7566.jpg",
+    productName: "Product 3",
+    category: "Category 3",
+    price: "$20.00",
+    rating: "4.8",
+    description: "Description of Product 2",
+    stock: "In Stock: 20"
+  }, {
+    imageUrl: "IMG_7566.jpg",
+    productName: "Product 3",
+    category: "Category 3",
+    price: "$20.00",
+    rating: "4.8",
+    description: "Description of Product 2",
+    stock: "In Stock: 20"
+  }, {
+    imageUrl: "IMG_7566.jpg",
+    productName: "Product 3",
+    category: "Category 3",
+    price: "$20.00",
+    rating: "4.8",
+    description: "Description of Product 2",
+    stock: "In Stock: 20"
+  }, {
+    imageUrl: "IMG_7566.jpg",
+    productName: "Product 3",
+    category: "Category 3",
+    price: "$20.00",
+    rating: "4.8",
+    description: "Description of Product 2",
+    stock: "In Stock: 20"
+  }, {
+    imageUrl: "IMG_7566.jpg",
+    productName: "Product 3",
+    category: "Category 3",
+    price: "$20.00",
+    rating: "4.8",
+    description: "Description of Product 2",
+    stock: "In Stock: 20"
+  }, {
+    imageUrl: "IMG_7566.jpg",
+    productName: "Product 3",
+    category: "Category 3",
+    price: "$20.00",
+    rating: "4.8",
+    description: "Description of Product 2",
+    stock: "In Stock: 20"
+  }, {
+    imageUrl: "IMG_7566.jpg",
+    productName: "Product 3",
+    category: "Category 3",
+    price: "$20.00",
+    rating: "4.8",
+    description: "Description of Product 2",
+    stock: "In Stock: 20"
+  }, {
+    imageUrl: "IMG_7566.jpg",
+    productName: "Product 3",
+    category: "Category 3",
+    price: "$20.00",
+    rating: "4.8",
+    description: "Description of Product 2",
+    stock: "In Stock: 20"
+  }, {
+    imageUrl: "IMG_7566.jpg",
+    productName: "Product 3",
+    category: "Category 3",
+    price: "$20.00",
+    rating: "4.8",
+    description: "Description of Product 2",
+    stock: "In Stock: 20"
+  }, {
+    imageUrl: "IMG_7566.jpg",
+    productName: "Product 3",
+    category: "Category 3",
+    price: "$20.00",
+    rating: "4.8",
+    description: "Description of Product 2",
+    stock: "In Stock: 20"
+  }, {
+    imageUrl: "IMG_7566.jpg",
+    productName: "Product 3",
+    category: "Category 3",
+    price: "$20.00",
+    rating: "4.8",
+    description: "Description of Product 2",
+    stock: "In Stock: 20"
+  }
 ];
+
+
+
 
 // Function to create card element
 function createCard(cardData) {
@@ -146,10 +284,12 @@ function createCard(cardData) {
     card.classList.toggle("flipped");
   });
 
+  // card.addEventListener("click",function() {
+  //   card.classList.toggle("card-back");
+  // });
+
   return card;
 }
-
-createCard(20);
 // Function to initialize cards
 function init() {
   const container = document.createElement("div");
@@ -163,7 +303,7 @@ function init() {
 }
 
 // Initialize cards
-init(20);
+init();
 
 
 
